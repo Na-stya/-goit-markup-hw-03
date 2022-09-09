@@ -86,9 +86,10 @@ ul{
     color: var(--primary-text-color);
 
 }
-.address.current{
+.address{
     color: var(--primary-title-color);
     text-decoration: none;
+
 }
 
 .address:hover,
