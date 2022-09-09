@@ -30,7 +30,16 @@ ul{
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
+.page-header{
+    outline: 2px solid orange;
+}
 
+.container{
+    margin: auto;
+    padding: auto;
+    width: 1230px;
+    list-style: none; 
+}
 .logo{
     font-family: 'Raleway' sans-serif ;
     font-weight: 700;
@@ -54,6 +63,8 @@ ul{
 }
 .header-list-list{
     list-style: none; 
+    margin: 0;
+    padding: 0%;
     
 }
 
@@ -114,6 +125,7 @@ ul{
 
 .hero{
     background-color: #2F303A;
+    text-align: center;
 }
 .hero-pre-title{
   font-family:'Roboto', sans-serif;
@@ -125,16 +137,22 @@ ul{
   background-color: var(--tetriary-text-color);
   text-align: center;
   letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 40px;
+ 
 }
 
 .main-btn-btn{
   font-family: 'Roboto' ,sans-serif;
+  border-radius: 4px;
+  padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   color: var(--description-text);
   background-color: var(--primary-text-color);
   letter-spacing: 0.06em;
+  border: 2px solid transparent;
 }
 .main-button-btn{
   font-family: 'Roboto' sans-serif;
@@ -142,6 +160,7 @@ ul{
   font-size: 16px;
   letter-spacing: 0.03em;
   line-height: 1.6;
+  
 }
 
 .main-button{
@@ -151,6 +170,8 @@ ul{
     line-height:1.6;
     font-size: 16px;
     border: none;
+    border-radius: 4px;
+    border: 1px solid transparent;
 }
 .main-button:hover,
 .main-button:focus{
@@ -159,6 +180,8 @@ ul{
 
 .about-list-list{
     list-style: none;
+    margin-top: 0%;
+    margin-bottom: 0;
 }
 .about-title-title{
     font-weight: 700;
@@ -167,6 +190,8 @@ ul{
     line-height:1.1;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-top: 0;
+    
 }
 .about-text{
     font-weight: 400;
@@ -175,6 +200,7 @@ ul{
     line-height:1.7;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-top: 0;
 }
 .benefits-title-title{
     font-weight: 700;
@@ -183,9 +209,15 @@ ul{
     line-height:1.16;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    
 }
+
 .benefits-list-item{
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0%;
 }
 
 
@@ -199,12 +231,18 @@ ul{
     line-height:1.16;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0%;
+    
 }
+
+
 
 .team-title-item{
     font-size: 16px;
     line-height:1.1;
     letter-spacing: 0.03em;
+    margin bottom: 94%;
 }
 
 .team-item-text{
@@ -226,13 +264,14 @@ ul{
 
 
 
-.footer{
+.footer-section{
     background-color: var(--tetriary-text-color);
+    
    }
 
 .footer-list{
     color: var(--primary-title-color);
-    
+    list-style: none;
 }
 
 .footer-logo{
